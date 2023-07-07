@@ -326,24 +326,24 @@ main{
 }
 
 .rsvp .rsvp-title h2{
-  font-family: 'neutron';
+  /* font-family: 'neutron'; */
   font-size: 27px;
   margin: 20px;
   letter-spacing: 5px;
-  color: #263f22;
+  color: #002664;
 }
 
 .rsvp .rsvp-title p{
   padding: 0 20px;
   line-height: 20px;
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
   font-weight: lighter;
-  font-size: 15px;
-  color: #263f22;
+  font-size: 0.9rem;
+  color: #002664;
 }
 
 .form-rsvp{
-  padding: 30px;
+  padding: 10px;
   margin-top: -10px;
 }
 
@@ -351,9 +351,9 @@ main{
   width: 100%;
   height: 35px;
   background: transparent;
-  border: 1px solid #263f22;
-  color: #263f22;
-  font-family: 'Playfair Display', serif;
+  border: 1px solid #002664;
+  color: #002664;
+  /* font-family: 'Playfair Display', serif; */
   margin-top: 10px;
 }
 
@@ -361,15 +361,34 @@ main{
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
-  font-size: 17px;
+  /* font-family: 'Playfair Display', serif; */
+  font-size: .9rem;
   font-weight: lighter;
 }
 
 .hadir-confirm p label{
-  font-family: 'Playfair Display', serif;
-  font-size: 17px;
+  /* font-family: 'Playfair Display', serif; */
+  font-size: .9rem;
   font-weight: lighter;
+}
+
+#jumlahTamu{
+  background: transparent;
+  /* background: rgba(144, 144, 144, 0.3); */
+  color: #002664;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: .9rem;
+  border: solid 1px #002664;
+}
+
+
+#nama::-webkit-input-placeholder,
+#alamat::-webkit-input-placeholder{
+  color: #002664;
+  padding-left: 4px;
+  font-size: .9rem;
 }
 
 input[type="radio"] {
@@ -392,7 +411,7 @@ input[type="radio"] {
     cursor: pointer;
     line-height: 20px;
     display: flex;
-    color: #263f22;
+    color: #002664;
 }
 
 [type="radio"]:checked + label:before,
@@ -403,7 +422,7 @@ input[type="radio"] {
     top: 0;
     width: 18px;
     height: 18px;
-    border: 1px solid #263f22;
+    border: 1px solid #002664;
     border-radius: 100%;
     background: transparent;
 }
@@ -413,7 +432,7 @@ input[type="radio"] {
     content: '';
     width: 12px;
     height: 12px;
-    background: #263f22;
+    background: #002664;
     position: absolute;
     top: 4px;
     left: 4px;
@@ -437,19 +456,17 @@ input[type="radio"] {
 .form-rsvp button{
   width: 100%;
   height: 40px;
-  background: transparent;
-  border: #263f22 1px solid ;
-  font-size: 18px !important;
-  font-family: 'Playfair Display', serif;
+  background: #002664;
+  font-size: .9rem !important;
   font-weight: lighter;
   margin-bottom: 0;
   cursor: pointer;
-  color: #263f22;
+  color: #fff;
   margin-top: 10px;
 }
 
 .btn-loading .buttonload {
-  background-color: #263f22;  
+  background-color: #081a39;  
   border: none;
   color: #ffffff;
   padding: 12px 16px;
