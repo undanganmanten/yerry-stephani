@@ -33,11 +33,11 @@ const audio = (() => {
 
 const salin = (btn) => {
     navigator.clipboard.writeText(btn.getAttribute('data-nomer').toString());
-    btn.innerHTML = 'Tersalin';
+    btn.innerHTML = 'Copied';
     btn.disabled = true;
 
     setTimeout(() => {
-        btn.innerHTML = 'Salin No. Rekening';
+        btn.innerHTML = 'Copy';
         btn.disabled = false;
     }, 1500);
 };
