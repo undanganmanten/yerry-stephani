@@ -143,7 +143,7 @@ main{
 }
 
 .button-jarak{
-  margin-top: 270px !important;
+  margin-top: 200px !important;
 }
 
 .button-blue{
@@ -1632,6 +1632,10 @@ aside img{
   .container-aside-main{
     display: grid;
     grid-template-columns: 100% 0%;
+  }
+
+  .button-jarak{
+    margin-top: 270px !important;
   }
   
   #conference-timeline:before,
