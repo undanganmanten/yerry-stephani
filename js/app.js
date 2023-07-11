@@ -365,9 +365,9 @@ function create_unfinished_task(){
             task_container.setAttribute("class", "task_container");
             task_container.setAttribute("data-key", task_key);
         
-            if(task_hadir==="Hadir"){
+            if(task_hadir==="Present"){
                 presentHadir += 1;
-            }else if(task_hadir==="Tidak Hadir"){
+            }else if(task_hadir==="Not Present"){
                 presentTidakHadir += 1;
             }else{
                 presentRagu += 1;
